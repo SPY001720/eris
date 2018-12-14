@@ -22,7 +22,7 @@ bot.on('ready', () => {
                 .addField("Fun Commands", "**.music** -  Blissful and clean music features straight to your ears!\n **.fml** - FML, if you think you're having a terrible day, read one of these!\n **.ud**\n - Search Urban Dictionary!")
                 .addField("Utilities Commands", "**.stats** - Interested in the statistics of the bot? This is what you're looking for!\n **.help** - Confused on what commands I have? This'll list them for you!\n **.twitter** - Live twitter feeds straight to your channels!\n **.userinfo** - Get detailed information about a specific user!\n **.serverinfo** - Get detailed information about this server!\n **.ping** - Reply with a pong! Used to test response time!\n **.inviteme** - I'll join your Discord Server!")
                 .addField("Customization Commands", "**.ignore** - Don't like Eris responding to something? Make him ignore it!")
-                .addField(`Requested by ${member.displayName}`)
+                .addField("`Requested by ${member.displayName}`")
             message.channel.sendEmbed(help_embed);
         }
     
