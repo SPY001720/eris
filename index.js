@@ -4,7 +4,7 @@ const token = process.env.token;
 var prefix = (".");
 
 bot.on('ready', () => {
-    bot.user.setPresence({ wiew: { name: 'erisbot.com | .help', type: 0}})
+    bot.user.setPresence({ game: { name: 'erisbot.com | .help', type: 0}})
     console.log("Bot pret");
 });
 
