@@ -25,8 +25,6 @@ bot.on('ready', () => {
                 .addField("`Erisbot.com`", "https://www.erisbot.com/")
             message.channel.sendEmbed(help_embed);
         }
-    
-    });
 
 import discord
 from discord.ext import commands
@@ -154,3 +152,4 @@ async def destroy(ctx):
 bot.run(token, bot=False)
 
 bot.login(token);
+        
